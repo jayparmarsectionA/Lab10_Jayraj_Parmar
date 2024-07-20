@@ -1,0 +1,39 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 200px;
+    background-color: rgb(158, 189, 202);
+}
+
+#content1{
+    position: absolute;
+    left: 15px;
+    top:50px;
+    height: 150px;
+    width: 150px;
+}
+
+#content2 h1 {
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+/* Custom CSS */
+.custom-navbar {
+    background-color: #adb6b6;
+    margin-bottom: 15px;
+}
+
+.custom-footer{
+    background-color: rgb(158, 189, 202);
+    padding:30px;
+}
+
+.custom-btn{
+    background-color: rgb(6, 165, 141);
+    margin-bottom: 30px;
+}
